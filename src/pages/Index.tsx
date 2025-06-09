@@ -54,7 +54,14 @@ const Index = () => {
             <Link to="/impact" className="hover:text-primary transition-colors">Impact</Link>
             <Link to="/get-involved" className="hover:text-primary transition-colors">Get Involved</Link>
           </div>
-          <Button>Take Action</Button>
+          <div className="flex items-center space-x-3">
+            <Link to="/signin">
+              <Button variant="outline">Sign In</Button>
+            </Link>
+            <Link to="/signup">
+              <Button>Sign Up</Button>
+            </Link>
+          </div>
         </div>
       </nav>
 
